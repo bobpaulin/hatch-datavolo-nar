@@ -9,7 +9,7 @@ import sys
 from collections.abc import Callable, Generator
 from contextlib import contextmanager
 from pathlib import Path
-from shlex import quote
+from oslex import quote
 from shutil import rmtree
 from subprocess import PIPE, check_call
 from typing import Any
